@@ -34,11 +34,7 @@ export const library = [
       image:
         "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AN5W2E/b0cb0df8c30d479da36443c10bc85b96.jpg/f/ac-dc-ballbreaker-framed-album-cover-30x30cm.jpg",
     },
-    {
-      title: "Flavors",
-      image:
-        "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/125831034/original/c2e1426823f87d01f7b43085c6b20e61b0736794/create-you-a-special-artistic-album-cover.png",
-    },
+    
     {
       title: "Shakira",
       image:
