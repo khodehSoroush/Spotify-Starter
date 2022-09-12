@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Tabs defaultActiveKey="1" centered>
               <TabPane tab="FEATURED" key="1">
-                <h1 className="featuredTitle">Today Is The Day 🚀</h1>
+                <h1 className="featuredTitle">Today Is The Day</h1>
                 <div className="albums">
                   {library.map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
               </TabPane>
               <TabPane tab="GENRES & MOODS" key="2">
-                <h1 className="featuredTitle">Rap Music</h1>
+                <h1 className="featuredTitle">Pop Music</h1>
                 <div className="albums">
                   {library.slice(7, 13).map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
@@ -82,7 +82,7 @@ const Home = () => {
               <TabPane tab="NEW RELEASES" key="3">
                 <h1 className="featuredTitle">Hot Off The Press</h1>
                 <div className="albums">
-                  {library.slice(3,19).map((e) => (
+                  {library.map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
                       <img
                         src={e.image}
